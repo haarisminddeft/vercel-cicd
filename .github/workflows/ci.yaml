@@ -17,4 +17,7 @@ jobs:
       - name: Install Packages
         run : npm ci
       
+      - name: Start App
+        run: npm start
+      
       
